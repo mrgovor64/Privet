@@ -1,0 +1,49 @@
+/* Кастомные шрифты */
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@800&display=swap');
+@import "tailwindcss";
+
+/* AA Stetica временно заменяем на системный или оставим пусто */
+@font-face {
+  font-family: 'AA Stetica';
+  src: url('/fonts/AA Stetica Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Кастомные стили: цвета, шрифты, классы */
+@layer base {
+  body {
+    @apply font-sans text-[#282828] bg-white;
+    font-family: 'AA Stetica', sans-serif;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: 'Geologica', sans-serif;
+  }
+}
+
+/* Кастомные утилиты (если нужно) */
+@layer utilities {
+  .text-primary {
+    color: #658bc7;
+  }
+
+  .bg-primary {
+    background-color: #658bc7;
+  }
+
+  .font-heading {
+    font-family: 'Geologica', sans-serif;
+  }
+
+  .font-body {
+    font-family: 'AA Stetica', sans-serif;
+  }
+
+  .text-text {
+    color: #282828;
+  }
+}

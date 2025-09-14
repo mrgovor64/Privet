@@ -1,0 +1,25 @@
+---
+import SectionTitle from "./SectionTitle.astro";
+---
+
+<div class="max-w-6xl mx-auto px-4">
+  <SectionTitle title="Nuestro café" />
+
+  <div class="mt-8 flex flex-col md:flex-row gap-10 items-center">
+    <!-- Текст -->
+    <div class="md:w-1/2 text-text text-lg leading-relaxed">
+      <p>
+        En Privet preparamos café con cariño y calidad.  
+        Ofrecemos espresso, americano, cappuccino, latte y nuestro favorito: <strong>Raf</strong> — café cremoso con vainilla o caramelo salado.
+      </p>
+      <p class="mt-4">
+        También puedes probar nuestras nuevas bebidas frías con café, soda y sabores únicos como <strong>arándano</strong> o <strong>lavanda</strong>.
+      </p>
+    </div>
+
+    <!-- Фото -->
+    <div class="md:w-1/2">
+      <img src="/images/postres/cafe.jpg" alt="Café de Privet" class="rounded-xl shadow-md w-full max-w-md mx-auto" loading="lazy" />
+    </div>
+  </div>
+</div>

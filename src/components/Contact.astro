@@ -1,0 +1,36 @@
+---
+import SectionTitle from "./SectionTitle.astro";
+---
+
+<div class="max-w-6xl mx-auto px-4">
+  <SectionTitle title="Contáctanos" />
+
+  <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
+    <!-- Контактная информация -->
+    <div class="text-text text-base leading-relaxed space-y-4">
+      <p><strong>📍 Dirección:</strong> Calle Ejemplo 123, Zapopan, Jalisco</p>
+      <p><strong>🕓 Horario:</strong> Martes a domingo, 11:00 – 20:00</p>
+      <div class="flex flex-col gap-3 mt-6">
+        <a href="https://wa.me/521XXXXXXXXXX" class="inline-block bg-primary text-white px-5 py-2 rounded hover:opacity-90 transition w-max text-sm">
+          📲 Escríbenos por WhatsApp
+        </a>
+        <a href="tel:+5233XXXXXXXX" class="text-primary underline text-sm">📞 Llamar</a>
+        <a href="https://www.instagram.com/tu_usuario" class="text-primary underline text-sm">📸 Instagram</a>
+      </div>
+    </div>
+
+    <!-- Карта -->
+    <div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.000000000000!2d-103.399999!3d20.660000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xxxxxxxxxxxxxxxx!5e0!3m2!1ses-419!2smx!4vXXXXXXXXXXXX"
+        width="100%"
+        height="300"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        class="rounded-xl shadow"
+      ></iframe>
+    </div>
+  </div>
+</div>

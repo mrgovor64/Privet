@@ -1,0 +1,59 @@
+---
+const { title = "Privet — Repostería Rusa en Guadalajara" } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+
+    <!-- Подключаем глобальные стили -->
+    <link rel="stylesheet" href="/src/styles/global.css" />
+    <link rel="stylesheet" href="/src/styles/base.css" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+    <!-- SEO -->
+    <meta name="description" content="Privet - Pastelería rusa en Guadalajara. Medovik, Napoleón, café Raf, decoración para pasteles y más." />
+    <meta name="keywords" content="pastelería rusa, postres rusos, medovik, napoleón, café Raf, Guadalajara, decoración para pasteles, fiesta" />
+    <meta name="author" content="Privet Postres Rusos" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Privet — Postres Rusos en Guadalajara" />
+    <meta property="og:description" content="Pastelería rusa artesanal. Medovik, café Raf, decoración para fiestas y más." />
+    <meta property="og:image" content="https://privetpasteleria.com/images/postres/hero.jpg" />
+    <meta property="og:url" content="https://privetpasteleria.com/" />
+    <meta property="og:type" content="website" />
+
+    <!-- WhatsApp/Telegram/etc -->
+    <meta name="twitter:card" content="summary_large_image" />
+
+  </head>
+  <body class="bg-white text-text font-body">
+    <header class="sticky top-0 bg-white z-50 shadow-sm">
+      <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+        <a href="/" class="text-primary font-heading text-2xl tracking-wide">
+          privet<br /><span class="text-sm">postres rusos</span>
+        </a>
+        <nav class="hidden md:flex gap-6 font-heading text-sm text-primary uppercase">
+          <a href="#inicio">Inicio</a>
+          <a href="#postres">Postres</a>
+          <a href="#cafe">Café</a>
+          <a href="#decoracion">Decoración</a>
+          <a href="#opiniones">Opiniones</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer class="mt-16 py-8 bg-primary text-white text-sm text-center">
+      © {new Date().getFullYear()} Privet — Postres Rusos en Guadalajara
+    </footer>
+  </body>
+</html>
