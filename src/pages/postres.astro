@@ -2,27 +2,32 @@
 import Layout from "../layouts/Layout.astro";
 import DessertCard from "../components/DessertCard.astro";
 import SectionTitle from "../components/SectionTitle.astro";
-import desserts from "../data/desserts.json";
+import goods from "../data/goods.json";
+import categories from "../data/categories.json";
 
 // Получаем список уникальных категорий
-const categorias = [...new Set(desserts.map(d => d.category))];
+// const categorias = [...new Set(goods.map(d => d.category))];
 ---
 
 <Layout title="Todos los postres - Privet">
   <section class="py-16 max-w-6xl mx-auto px-4">
     <SectionTitle title="Todos los postres" />
 
-    {categorias.map(categoria => (
-      <>
-        <h3 class="text-xl font-heading text-primary mt-12 mb-4">{categoria}</h3>
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-          {desserts
-            .filter(d => d.category === categoria)
-            .map(dessert => (
-              <DessertCard {...dessert} />
-          ))}
-        </div>
-      </>
-    ))}
+    {
+      categories.map((categoria) => (
+        <>
+          <h3 class="text-xl font-heading text-primary mt-12 mb-4">
+            {categoria}
+          </h3>
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            {goods
+              .filter((d) => d.category === categoria)
+              .map((dessert) => (
+                <DessertCard {...dessert} />
+              ))}
+          </div>
+        </>
+      ))
+    }
   </section>
 </Layout>

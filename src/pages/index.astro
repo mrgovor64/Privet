@@ -5,16 +5,15 @@ import About from "../components/About.astro";
 import Cafe from "../components/Cafe.astro";
 import Decor from "../components/Decor.astro";
 import Reviews from "../components/Reviews.astro";
-import Contact from "../components/Contact.astro";
 // Компоненты для десертов
 import DessertCard from "../components/DessertCard.astro";
 import SectionTitle from "../components/SectionTitle.astro";
 
 // Загружаем десерты
-import desserts from "../data/desserts.json";
+import goods from "../data/goods.json";
 
 // Выбираем избранные
-const destacados = desserts.filter((item) => item.featured === true);
+const destacados = goods.filter((item) => item.featured === true);
 ---
 
 <Layout title="Privet — Postres Rusos en Guadalajara">
@@ -31,13 +30,16 @@ const destacados = desserts.filter((item) => item.featured === true);
   <!-- Destacados -->
   <section id="postres" class="py-12 bg-gray-50">
     <SectionTitle title="Nuestros postres destacados" />
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto px-4">
-      {destacados.map(dessert => (
-        <DessertCard {...dessert} />
-      ))}
+    <div
+      class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto px-4"
+    >
+      {destacados.map((goods) => <DessertCard {...goods} />)}
     </div>
     <div class="text-center mt-8">
-      <a href="/postres" class="inline-block bg-primary text-white px-6 py-2 rounded hover:opacity-90 transition">
+      <a
+        href="/postres"
+        class="inline-block bg-primary text-white px-6 py-2 rounded hover:opacity-90 transition"
+      >
         Ver todos los postres
       </a>
     </div>
@@ -56,10 +58,5 @@ const destacados = desserts.filter((item) => item.featured === true);
   <!-- Opiniones -->
   <section id="opiniones" class="py-12">
     <Reviews />
-  </section>
-
-  <!-- Contacto -->
-  <section id="contacto" class="py-12 bg-gray-100">
-    <Contact />
   </section>
 </Layout>

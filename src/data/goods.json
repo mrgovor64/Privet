@@ -2,7 +2,8 @@
   {
     "name": "Medovik",
     "description": "Pastel ruso de miel con capas suaves y crema ligera.",
-    "price": 85,
+    "price": 350,
+    "pricePerGramos": false,
     "image": "/images/postres/medovik.jpg",
     "category": "Pasteles",
     "featured": true
@@ -10,7 +11,8 @@
   {
     "name": "Napoleón",
     "description": "Capas crujientes de hojaldre con crema pastelera.",
-    "price": 85,
+    "price": 350,
+    "pricePerGramos": false,
     "image": "/images/postres/napoleon.jpg",
     "category": "Pasteles",
     "featured": true
@@ -18,7 +20,8 @@
   {
     "name": "Kartoshka",
     "description": "Pastelito de chocolate con esencia de ron y crema de mantequilla.",
-    "price": 45,
+    "price": 35,
+    "pricePerGramos": false,
     "image": "/images/postres/kartoshka.jpg",
     "category": "Especiales",
     "featured": true
@@ -26,7 +29,8 @@
   {
     "name": "Paloma Blanca",
     "description": "Postre de vainilla y crema con decoración ligera.",
-    "price": 50,
+    "price": 60,
+    "pricePerGramos": true,
     "image": "/images/postres/paloma.jpg",
     "category": "Especiales",
     "featured": true
@@ -34,7 +38,8 @@
   {
     "name": "Galleta de Almendra",
     "description": "Hecha con harina de almendra y un toque de limón.",
-    "price": 15,
+    "price": 80,
+    "pricePerGramos": true,
     "image": "/images/postres/almendra.jpg",
     "category": "Galletas",
     "featured": true
@@ -42,7 +47,8 @@
   {
     "name": "Galleta de Coco",
     "description": "Nuestra receta tradicional de galleta de coco.",
-    "price": 15,
+    "price": 50,
+    "pricePerGramos": true,
     "image": "/images/postres/coco.jpg",
     "category": "Galletas",
     "featured": true
@@ -50,7 +56,8 @@
   {
     "name": "Zefir",
     "description": "Delicado malvavisco ruso de manzana y clara de huevo.",
-    "price": 25,
+    "price": 40,
+    "pricePerGramos": true,
     "image": "/images/postres/zefir.jpg",
     "category": "Especiales",
     "featured": false
@@ -58,16 +65,18 @@
   {
     "name": "Galletas de Avena",
     "description": "Con plátano, arándano y coco rallado.",
-    "price": 20,
+    "price": 40,
+    "pricePerGramos": true,
     "image": "/images/postres/avena.jpg",
     "category": "Galletas",
     "featured": false
   },
   {
-    "name": "Nuecesitos",
+    "name": "Nuececitos",
     "description": "Galletas en forma de nuez rellenas de cajeta.",
-    "price": 20,
-    "image": "/images/postres/nuecesitos.jpg",
+    "price": 50,
+    "pricePerGramos": true,
+    "image": "/images/postres/nuececitos.jpg",
     "category": "Galletas",
     "featured": false
   }
