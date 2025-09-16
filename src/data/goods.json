@@ -161,7 +161,7 @@
   },
   {
     "name": "Raf",
-    "category": "Café",
+    "category": "Cafe",
     "description": "Café cremoso con crema y espresso. Puede llevar lavanda, vainilla o avellana, pero la mejor combinación es con caramelo salado.",
     "price": 50,
     "pricePerGramos": false,
@@ -171,7 +171,7 @@
   },
   {
     "name": "Café Refrescante",
-    "category": "Café",
+    "category": "Cafe",
     "description": "Café frío con soda y jarabe – por ejemplo, de lavanda, arándano y más.",
     "price": 50,
     "pricePerGramos": false,
@@ -181,7 +181,7 @@
   },
   {
     "name": "Americano",
-    "category": "Café",
+    "category": "Cafe",
     "description": "Café negro clásico y suave, preparado con espresso y agua caliente.",
     "price": 30,
     "pricePerGramos": false,
@@ -191,7 +191,7 @@
   },
   {
     "name": "Capuchino",
-    "category": "Café",
+    "category": "Cafe",
     "description": "Café suave con partes iguales de espresso, leche y espuma. Ideal para disfrutar en la mañana.",
     "price": 50,
     "pricePerGramos": false,
@@ -201,7 +201,7 @@
   },
   {
     "name": "Espresso",
-    "category": "Café",
+    "category": "Cafe",
     "description": "Café concentrado y fuerte con sabor intenso. La base de muchas bebidas de café.",
     "price": 30,
     "pricePerGramos": false,
@@ -211,7 +211,7 @@
   },
   {
     "name": "Flat White",
-    "category": "Café",
+    "category": "Cafe",
     "description": "Espresso suave con una fina capa de espuma de leche sedosa.",
     "price": 50,
     "pricePerGramos": false,
@@ -221,7 +221,7 @@
   },
   {
     "name": "Latte",
-    "category": "Café",
+    "category": "Cafe",
     "description": "Café suave y cremoso: una dosis de espresso con abundante leche caliente.",
     "price": 50,
     "pricePerGramos": false,
