@@ -4,7 +4,7 @@ import Contact from "../components/Contact.astro";
 const { title = "Privet — Repostería Rusa en Guadalajara" } = Astro.props;
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
@@ -17,21 +17,32 @@ const { title = "Privet — Repostería Rusa en Guadalajara" } = Astro.props;
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
 
     <!-- SEO -->
-    <meta name="description" content="Privet - Pastelería rusa en Guadalajara. Medovik, Napoleón, café Raf, decoración para pasteles y más." />
-    <meta name="keywords" content="pastelería rusa, postres rusos, medovik, napoleón, café Raf, Guadalajara, decoración para pasteles, fiesta" />
+    <meta
+      name="description"
+      content="Privet - Pastelería rusa en Guadalajara. Medovik, Napoleón, café Raf, decoración para pasteles y más."
+    />
+    <meta
+      name="keywords"
+      content="pastelería rusa, postres rusos, medovik, napoleón, café Raf, Guadalajara, decoración para pasteles, fiesta"
+    />
     <meta name="author" content="Privet Postres Rusos" />
     <meta name="robots" content="index, follow" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:title" content="Privet — Postres Rusos en Guadalajara" />
-    <meta property="og:description" content="Pastelería rusa artesanal. Medovik, café Raf, decoración para fiestas y más." />
-    <meta property="og:image" content="https://privetpasteleria.com/images/postres/hero.jpg" />
+    <meta
+      property="og:description"
+      content="Pastelería rusa artesanal. Medovik, café Raf, decoración para fiestas y más."
+    />
+    <meta
+      property="og:image"
+      content="https://privetpasteleria.com/images/hero.jpg"
+    />
     <meta property="og:url" content="https://privetpasteleria.com/" />
     <meta property="og:type" content="website" />
 
     <!-- WhatsApp/Telegram/etc -->
     <meta name="twitter:card" content="summary_large_image" />
-
   </head>
   <body class="bg-white text-text font-body">
     <Header />

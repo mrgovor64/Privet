@@ -1,83 +1,252 @@
 [
   {
-    "name": "Medovik",
-    "description": "Pastel ruso de miel con capas suaves y crema ligera.",
+    "name": "Medovik (600g)",
+    "category": "Pasteles",
+    "description": "Está hecho con capas de bizcocho de miel y lleva una crema especial.",
     "price": 350,
     "pricePerGramos": false,
-    "image": "/images/postres/medovik.jpg",
-    "category": "Pasteles",
+    "available": true,
+    "image": "/images/postres/Medovik (600g).jpg",
     "featured": true
   },
   {
-    "name": "Napoleón",
-    "description": "Capas crujientes de hojaldre con crema pastelera.",
+    "name": "Napoleon (600g)",
+    "category": "Pasteles",
+    "description": "Está hecho con capas de masa hojaldre y lleva crema pastelera.",
     "price": 350,
     "pricePerGramos": false,
-    "image": "/images/postres/napoleon.jpg",
-    "category": "Pasteles",
+    "available": true,
+    "image": "/images/postres/Napoleon (600g).jpg",
     "featured": true
   },
   {
-    "name": "Kartoshka",
-    "description": "Pastelito de chocolate con esencia de ron y crema de mantequilla.",
-    "price": 35,
-    "pricePerGramos": false,
-    "image": "/images/postres/kartoshka.jpg",
-    "category": "Especiales",
-    "featured": true
-  },
-  {
-    "name": "Paloma Blanca",
-    "description": "Postre de vainilla y crema con decoración ligera.",
-    "price": 60,
-    "pricePerGramos": true,
-    "image": "/images/postres/paloma.jpg",
-    "category": "Especiales",
-    "featured": true
-  },
-  {
-    "name": "Galleta de Almendra",
-    "description": "Hecha con harina de almendra y un toque de limón.",
+    "name": "Éclair (chocolate)",
+    "category": "Pasteles Individuales",
+    "description": "Está relleno de una crema de chocolate y cubierto con glaseado de chocolate oscuro.",
     "price": 80,
     "pricePerGramos": true,
-    "image": "/images/postres/almendra.jpg",
-    "category": "Galletas",
-    "featured": true
-  },
-  {
-    "name": "Galleta de Coco",
-    "description": "Nuestra receta tradicional de galleta de coco.",
-    "price": 50,
-    "pricePerGramos": true,
-    "image": "/images/postres/coco.jpg",
-    "category": "Galletas",
-    "featured": true
-  },
-  {
-    "name": "Zefir",
-    "description": "Delicado malvavisco ruso de manzana y clara de huevo.",
-    "price": 40,
-    "pricePerGramos": true,
-    "image": "/images/postres/zefir.jpg",
-    "category": "Especiales",
+    "available": true,
+    "image": "",
     "featured": false
   },
   {
-    "name": "Galletas de Avena",
-    "description": "Con plátano, arándano y coco rallado.",
+    "name": "Éclair (pastelera)",
+    "category": "Pasteles Individuales",
+    "description": "Está relleno de crema pastelera y cubierto con glaseado de chocolate oscuro.",
+    "price": 80,
+    "pricePerGramos": true,
+    "available": true,
+    "image": "/images/postres/Eclair (pastelera).jpg",
+    "featured": false
+  },
+  {
+    "name": "Kartoshka",
+    "category": "Pasteles Individuales",
+    "description": "Es un postre antiguo ruso que se solía hacer solo con bizcocho, esencia de ron y mantequilla, pero le hemos agregado otros ingredientes como el cacao en polvo y la crema de mantequilla encima.",
+    "price": 35,
+    "pricePerGramos": false,
+    "available": true,
+    "image": "/images/postres/Kartoshka.jpg",
+    "featured": true
+  },
+  {
+    "name": "Medovik (150g)",
+    "category": "Pasteles Individuales",
+    "description": "Un pedazo de pastel que hecho con capas de bizcocho de miel y lleva una crema especial.",
+    "price": 85,
+    "pricePerGramos": false,
+    "available": true,
+    "image": "/images/postres/Medovik (600g).jpg",
+    "featured": false
+  },
+  {
+    "name": "Napoleon (150g)",
+    "category": "Pasteles Individuales",
+    "description": "Un pedazo de pastel que hecho con capas de masa hojaldre y lleva crema pastelera.",
+    "price": 85,
+    "pricePerGramos": false,
+    "available": true,
+    "image": "/images/postres/Napoleon (600g).jpg",
+    "featured": false
+  },
+  {
+    "name": "Paloma Blanca",
+    "category": "Pasteles Individuales",
+    "description": "Está hecho con una base de bizcocho, encima tiene una capa de gelatina de cajeta y encima tiene su glaseado de chocolate oscuro.",
+    "price": 60,
+    "pricePerGramos": true,
+    "available": true,
+    "image": "/images/postres/Paloma Blanca.jpg",
+    "featured": true
+  },
+  {
+    "name": "Tarta con queso crema",
+    "category": "Pasteles Individuales",
+    "description": "Postre cremoso con textura delicada y sabor suave de queso crema. Ligero y delicioso, ideal para acompañar con café o té.",
+    "price": 80,
+    "pricePerGramos": false,
+    "available": false,
+    "image": "/images/postres/Tarta con queso crema.jpg",
+    "featured": false
+  },
+  {
+    "name": "Zefir",
+    "category": "Pasteles Individuales",
+    "description": "Es un postre esponjoso tradicional de origen ruso, hecho con puré de manzana, clara de huevo y agar. Tiene una textura suave y un sabor delicado, similar al malvavisco pero más ligero.",
     "price": 40,
     "pricePerGramos": true,
-    "image": "/images/postres/avena.jpg",
+    "available": false,
+    "image": "/images/postres/Zefir.jpg",
+    "featured": false
+  },
+  {
+    "name": "Profiterol con chocolate",
+    "category": "Pasteles Individuales",
+    "description": "Pastelito de masa ligera con un relleno cremoso de ganache de chocolate. Sabor intenso y textura suave en cada bocado.",
+    "price": 80,
+    "pricePerGramos": true,
+    "available": false,
+    "image": "/images/postres/Profiterol con chocolate.jpg",
+    "featured": false
+  },
+  {
+    "name": "Avena & Banana",
     "category": "Galletas",
+    "description": "Son nuestras galletas de avena, también llevan plátano, arándano y coco rallado.",
+    "price": 40,
+    "pricePerGramos": true,
+    "available": true,
+    "image": "/images/postres/Avena & Banana.jpg",
+    "featured": false
+  },
+  {
+    "name": "Galletas de almendra",
+    "category": "Galletas",
+    "description": "Está hecha con harina de almendra y tiene un ligero toque de sabor a limón.",
+    "price": 80,
+    "pricePerGramos": true,
+    "available": false,
+    "image": "/images/postres/Galletas de almendra.jpg",
+    "featured": false
+  },
+  {
+    "name": "Galletas de coco",
+    "category": "Galletas",
+    "description": "Son nuestras galletas tradicionales de coco.",
+    "price": 50,
+    "pricePerGramos": true,
+    "available": true,
+    "image": "/images/postres/Galletas de coco.jpg",
     "featured": false
   },
   {
     "name": "Nuececitos",
-    "description": "Galletas en forma de nuez rellenas de cajeta.",
+    "category": "Galletas",
+    "description": "Son galletas en forma de nuez y están rellenas de cajeta.",
     "price": 50,
     "pricePerGramos": true,
-    "image": "/images/postres/nuececitos.jpg",
+    "available": true,
+    "image": "/images/postres/Nuececitos.jpg",
+    "featured": true
+  },
+  {
+    "name": "Praniki",
     "category": "Galletas",
+    "description": "Galletas tradicionales rusas: suaves por dentro, ligeramente crujientes por fuera, con un toque sutil de especias. Similares a cookies, pero con un carácter único del este de Europa.",
+    "price": 25,
+    "pricePerGramos": false,
+    "available": true,
+    "image": "/images/postres/Praniki.jpg",
+    "featured": false
+  },
+  {
+    "name": "Raf",
+    "category": "Café",
+    "description": "Café cremoso con crema y espresso. Puede llevar lavanda, vainilla o avellana, pero la mejor combinación es con caramelo salado.",
+    "price": 50,
+    "pricePerGramos": false,
+    "available": true,
+    "image": "/images/postres/Raf.jpg",
+    "featured": true
+  },
+  {
+    "name": "Café Refrescante",
+    "category": "Café",
+    "description": "Café frío con soda y jarabe – por ejemplo, de lavanda, arándano y más.",
+    "price": 50,
+    "pricePerGramos": false,
+    "available": true,
+    "image": "/images/postres/Cafe Refrescante.jpg",
+    "featured": false
+  },
+  {
+    "name": "Americano",
+    "category": "Café",
+    "description": "Café negro clásico y suave, preparado con espresso y agua caliente.",
+    "price": 30,
+    "pricePerGramos": false,
+    "available": true,
+    "image": "",
+    "featured": false
+  },
+  {
+    "name": "Capuchino",
+    "category": "Café",
+    "description": "Café suave con partes iguales de espresso, leche y espuma. Ideal para disfrutar en la mañana.",
+    "price": 50,
+    "pricePerGramos": false,
+    "available": true,
+    "image": "",
+    "featured": false
+  },
+  {
+    "name": "Espresso",
+    "category": "Café",
+    "description": "Café concentrado y fuerte con sabor intenso. La base de muchas bebidas de café.",
+    "price": 30,
+    "pricePerGramos": false,
+    "available": true,
+    "image": "",
+    "featured": false
+  },
+  {
+    "name": "Flat White",
+    "category": "Café",
+    "description": "Espresso suave con una fina capa de espuma de leche sedosa.",
+    "price": 50,
+    "pricePerGramos": false,
+    "available": true,
+    "image": "",
+    "featured": false
+  },
+  {
+    "name": "Latte",
+    "category": "Café",
+    "description": "Café suave y cremoso: una dosis de espresso con abundante leche caliente.",
+    "price": 50,
+    "pricePerGramos": false,
+    "available": true,
+    "image": "",
+    "featured": false
+  },
+  {
+    "name": "Decoración",
+    "category": "Decor",
+    "description": "Decoraciones para pasteles: figuras, frases, toppers — para que tu pastel sea realmente especial.",
+    "price": 30,
+    "pricePerGramos": false,
+    "available": true,
+    "image": "/images/postres/Decoracion.jpg",
+    "featured": false
+  },
+  {
+    "name": "Vela",
+    "category": "Decor",
+    "description": "Velas para pasteles: clásicas, con números y en formas divertidas — un toque mágico para tu celebración.",
+    "price": 30,
+    "pricePerGramos": false,
+    "available": true,
+    "image": "/images/postres/Vela.jpg",
     "featured": false
   }
 ]
