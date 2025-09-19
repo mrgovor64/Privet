@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://privet.mx/sitemap.xml
+Sitemap: https://privet.mx/sitemap-index.xml
