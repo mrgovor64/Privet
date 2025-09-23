@@ -27,6 +27,10 @@ import categories from "../data/categories.json";
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
               {goods
                 .filter((d) => d.category === categoria)
+                .sort((a, b) => {
+                  if (a.available === b.available) return 0;
+                  return a.available ? -1 : 1;
+                })
                 .map((dessert) => (
                   <DessertCard {...dessert} />
                 ))}

@@ -1,9 +1,12 @@
 ---
-const { name, description, price, pricePerGramos, image } = Astro.props;
+const { name, description, price, pricePerGramos, image, available } =
+  Astro.props;
 ---
 
 <div
-  class="bg-white rounded-xl shadow hover:shadow-md transition overflow-hidden"
+  class={`relative bg-white rounded-xl shadow hover:shadow-md transition overflow-hidden ${
+    available === false ? "opacity-50 pointer-events-none" : ""
+  }`}
 >
   <img
     src={image ? image : "/images/noimg.jpg"}
@@ -11,11 +14,21 @@ const { name, description, price, pricePerGramos, image } = Astro.props;
     class="w-full h-60 object-cover"
     loading="lazy"
   />
+
+  {
+    available === false && (
+      <div class="absolute top-2 left-2 bg-red-600 text-white text-xs px-2 py-1 rounded">
+        No disponible
+      </div>
+    )
+  }
+
   <div class="p-4">
     <h3 class="font-heading text-lg text-primary">{name}</h3>
     <p class="text-text text-sm mt-1">{description}</p>
     <p class="mt-2 font-semibold text-text">
-      ${price}<span class="text-sm">{pricePerGramos ? "/100g" : ""}</span>
+      ${price}
+      <span class="text-sm">{pricePerGramos ? "/100 g" : ""}</span>
     </p>
   </div>
 </div>
