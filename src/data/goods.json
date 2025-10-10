@@ -2,7 +2,7 @@
   {
     "name": "Medovik (600g)",
     "category": "Pasteles",
-    "description": "Está hecho con capas de bizcocho de miel y lleva una crema especial.",
+    "description": "Pastel tradicional ruso con capas de bizcocho de miel y crema suave. Dulce, húmedo y aromático, con un sabor casero que reconforta.",
     "price": 350,
     "pricePerGramos": false,
     "available": true,
@@ -12,7 +12,7 @@
   {
     "name": "Napoleon (600g)",
     "category": "Pasteles",
-    "description": "Está hecho con capas de masa hojaldre y lleva crema pastelera.",
+    "description": "Capas finas de masa hojaldre con una crema pastelera ligera. Crujiente por fuera, suave por dentro y lleno de sabor clásico ruso.",
     "price": 350,
     "pricePerGramos": false,
     "available": true,
@@ -22,7 +22,7 @@
   {
     "name": "Éclair (chocolate)",
     "category": "Pasteles Individuales",
-    "description": "Está relleno de una crema de chocolate y cubierto con glaseado de chocolate oscuro.",
+    "description": "Eclair relleno con crema de chocolate y cubierto con glaseado oscuro. Un clásico francés con el toque dulce perfecto.",
     "price": 80,
     "pricePerGramos": true,
     "available": true,
@@ -32,7 +32,7 @@
   {
     "name": "Éclair (pastelera)",
     "category": "Pasteles Individuales",
-    "description": "Está relleno de crema pastelera y cubierto con glaseado de chocolate oscuro.",
+    "description": "Eclair relleno de crema pastelera y cubierto con glaseado de chocolate oscuro. Ligero, cremoso y lleno de encanto.",
     "price": 80,
     "pricePerGramos": true,
     "available": true,
@@ -42,7 +42,7 @@
   {
     "name": "Kartoshka",
     "category": "Pasteles Individuales",
-    "description": "Es un postre antiguo ruso que se solía hacer solo con bizcocho, esencia de ron y mantequilla, pero le hemos agregado otros ingredientes como el cacao en polvo y la crema de mantequilla encima.",
+    "description": "Postre ruso tradicional hecho con bizcocho, cacao y mantequilla, con un toque de ron. Denso, nostálgico y lleno de sabor casero.",
     "price": 35,
     "pricePerGramos": false,
     "available": true,
@@ -52,7 +52,7 @@
   {
     "name": "Medovik (150g)",
     "category": "Pasteles Individuales",
-    "description": "Un pedazo de pastel que hecho con capas de bizcocho de miel y lleva una crema especial.",
+    "description": "Porción del clásico pastel ruso de miel con capas suaves y crema ligera. Dulce y equilibrado, ideal con café o té.",
     "price": 85,
     "pricePerGramos": false,
     "available": true,
@@ -62,7 +62,7 @@
   {
     "name": "Napoleon (150g)",
     "category": "Pasteles Individuales",
-    "description": "Un pedazo de pastel que hecho con capas de masa hojaldre y lleva crema pastelera.",
+    "description": "Porción del pastel ruso con capas crujientes de hojaldre y crema pastelera suave. Delicado y lleno de sabor clásico.",
     "price": 85,
     "pricePerGramos": false,
     "available": true,
@@ -72,7 +72,7 @@
   {
     "name": "Paloma Blanca",
     "category": "Pasteles Individuales",
-    "description": "Está hecho con una base de bizcocho, encima tiene una capa de gelatina de cajeta y encima tiene su glaseado de chocolate oscuro.",
+    "description": "Bizcocho suave con gelatina de cajeta y glaseado de chocolate oscuro. Una mezcla perfecta de dulzura y textura cremosa.",
     "price": 60,
     "pricePerGramos": true,
     "available": true,
@@ -82,7 +82,7 @@
   {
     "name": "Tarta con queso crema",
     "category": "Pasteles Individuales",
-    "description": "Postre cremoso con textura delicada y sabor suave de queso crema. Ligero y delicioso, ideal para acompañar con café o té.",
+    "description": "Postre cremoso con textura delicada y sabor suave de queso crema. Ligero, equilibrado y delicioso hasta el último bocado.",
     "price": 80,
     "pricePerGramos": false,
     "available": false,
@@ -92,7 +92,7 @@
   {
     "name": "Zefir",
     "category": "Pasteles Individuales",
-    "description": "Es un postre esponjoso tradicional de origen ruso, hecho con puré de manzana, clara de huevo y agar. Tiene una textura suave y un sabor delicado, similar al malvavisco pero más ligero.",
+    "description": "Postre esponjoso de origen ruso hecho con puré de manzana, clara de huevo y agar. Suave, aireado y con un sabor natural y ligero.",
     "price": 40,
     "pricePerGramos": true,
     "available": false,
@@ -102,7 +102,7 @@
   {
     "name": "Profiterol con chocolate",
     "category": "Pasteles Individuales",
-    "description": "Pastelito de masa ligera con un relleno cremoso de ganache de chocolate. Sabor intenso y textura suave en cada bocado.",
+    "description": "Pequeño pastel de masa ligera relleno con ganache de chocolate. Crujiente por fuera, cremoso por dentro y lleno de sabor intenso.",
     "price": 80,
     "pricePerGramos": true,
     "available": false,
@@ -112,7 +112,7 @@
   {
     "name": "Avena & Banana",
     "category": "Galletas",
-    "description": "Son nuestras galletas de avena, también llevan plátano, arándano y coco rallado.",
+    "description": "Galletas suaves de avena con plátano, arándano y coco rallado. Dulces naturales, nutritivas y perfectas para cualquier momento del día.",
     "price": 40,
     "pricePerGramos": true,
     "available": true,
@@ -122,7 +122,7 @@
   {
     "name": "Galletas de almendra",
     "category": "Galletas",
-    "description": "Está hecha con harina de almendra y tiene un ligero toque de sabor a limón.",
+    "description": "Galletas finas hechas con harina de almendra y un toque de limón. Crujientes, aromáticas y con un sabor elegante y natural.",
     "price": 80,
     "pricePerGramos": true,
     "available": false,
@@ -132,7 +132,7 @@
   {
     "name": "Galletas de coco",
     "category": "Galletas",
-    "description": "Son nuestras galletas tradicionales de coco.",
+    "description": "Nuestras clásicas galletas de coco: suaves, aromáticas y con ese toque tropical que encanta a todos.",
     "price": 50,
     "pricePerGramos": true,
     "available": true,
@@ -142,7 +142,7 @@
   {
     "name": "Nuececitos",
     "category": "Galletas",
-    "description": "Son galletas en forma de nuez y están rellenas de cajeta.",
+    "description": "Galletas en forma de nuez rellenas de cajeta. Crujientes por fuera, dulces por dentro, un clásico ruso que siempre alegra.",
     "price": 50,
     "pricePerGramos": true,
     "available": true,
@@ -152,7 +152,7 @@
   {
     "name": "Praniki",
     "category": "Galletas",
-    "description": "Galletas tradicionales rusas: suaves por dentro, ligeramente crujientes por fuera, con un toque sutil de especias. Similares a cookies, pero con un carácter único del este de Europa.",
+    "description": "Galletas rusas tradicionales con un toque de miel y especias. Suaves por dentro, ligeramente crujientes y muy aromáticas.",
     "price": 25,
     "pricePerGramos": false,
     "available": true,
@@ -162,7 +162,7 @@
   {
     "name": "Raf",
     "category": "Cafe",
-    "description": "Café cremoso con crema y espresso. Puede llevar lavanda, vainilla o avellana, pero la mejor combinación es con caramelo salado.",
+    "description": "Café cremoso preparado con espresso y crema. Puedes elegir lavanda, vainilla o caramelo salado: todos igual de reconfortantes.",
     "price": 50,
     "pricePerGramos": false,
     "available": true,
@@ -172,7 +172,7 @@
   {
     "name": "Café Refrescante",
     "category": "Cafe",
-    "description": "Café frío con soda y jarabe – por ejemplo, de lavanda, arándano y más.",
+    "description": "Café frío con soda y jarabe artesanal: lavanda, arándano o más. Refrescante, ligero y lleno de energía.",
     "price": 50,
     "pricePerGramos": false,
     "available": true,
@@ -182,7 +182,7 @@
   {
     "name": "Americano",
     "category": "Cafe",
-    "description": "Café negro clásico y suave, preparado con espresso y agua caliente.",
+    "description": "Café negro clásico preparado con espresso y agua caliente. Sabor limpio, equilibrado y reconfortante.",
     "price": 30,
     "pricePerGramos": false,
     "available": true,
@@ -192,7 +192,7 @@
   {
     "name": "Capuchino",
     "category": "Cafe",
-    "description": "Café suave con partes iguales de espresso, leche y espuma. Ideal para disfrutar en la mañana.",
+    "description": "Café con espresso, leche y espuma en partes iguales. Cremoso, aromático y perfecto para comenzar el día.",
     "price": 50,
     "pricePerGramos": false,
     "available": true,
@@ -202,7 +202,7 @@
   {
     "name": "Espresso",
     "category": "Cafe",
-    "description": "Café concentrado y fuerte con sabor intenso. La base de muchas bebidas de café.",
+    "description": "Café intenso y concentrado con aroma profundo. Ideal para quienes disfrutan de un sabor fuerte y auténtico.",
     "price": 30,
     "pricePerGramos": false,
     "available": true,
@@ -212,7 +212,7 @@
   {
     "name": "Flat White",
     "category": "Cafe",
-    "description": "Espresso suave con una fina capa de espuma de leche sedosa.",
+    "description": "Espresso con leche caliente y una fina capa de espuma. Suave, aterciopelado y con un sabor perfectamente equilibrado.",
     "price": 50,
     "pricePerGramos": false,
     "available": true,
@@ -222,7 +222,7 @@
   {
     "name": "Latte",
     "category": "Cafe",
-    "description": "Café suave y cremoso: una dosis de espresso con abundante leche caliente.",
+    "description": "Café suave y cremoso preparado con espresso y leche vaporizada. Ideal para disfrutar con calma.",
     "price": 50,
     "pricePerGramos": false,
     "available": true,
@@ -232,7 +232,7 @@
   {
     "name": "Decoración",
     "category": "Decor",
-    "description": "Decoraciones para pasteles: figuras, frases, toppers — para que tu pastel sea realmente especial.",
+    "description": "Decoraciones para pasteles: figuras, frases y toppers que hacen que cada celebración sea especial.",
     "price": 30,
     "pricePerGramos": false,
     "available": true,
@@ -242,7 +242,7 @@
   {
     "name": "Vela",
     "category": "Decor",
-    "description": "Velas para pasteles: clásicas, con números y en formas divertidas — un toque mágico para tu celebración.",
+    "description": "Velas para pasteles: clásicas, con números o formas divertidas. Un toque de alegría para cualquier ocasión.",
     "price": 30,
     "pricePerGramos": false,
     "available": true,
