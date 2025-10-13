@@ -1,0 +1,49 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { getCollection } from "astro:content";
+
+const posts = await getCollection("blog");
+---
+
+<Layout
+  title="Blog — Privet"
+  description="Lee nuestras entradas del blog sobre postres rusos, ideas dulces y más."
+>
+  <section class="max-w-6xl mx-auto px-4 py-12">
+    <h1 class="text-3xl font-heading text-primary mb-6">Nuestro Blog</h1>
+    <p class="text-text mb-8">
+      Historias dulces, secretos del café y noticias desde nuestra cocina.
+    </p>
+
+    <ul class="grid gap-6 md:grid-cols-2">
+      {
+        posts.map((post) => (
+          <li class="bg-white shadow rounded-xl overflow-hidden hover:shadow-md transition">
+            <a href={`/blog/${post.slug}/`} class="block">
+              <img
+                src={
+                  post.data.image && post.data.image.trim() !== ""
+                    ? post.data.image
+                    : "/images/noimg.jpg"
+                }
+                alt={post.data.title}
+                class="w-full h-48 object-cover"
+              />
+              <div class="p-4">
+                <h2 class="text-xl font-semibold text-primary mb-1">
+                  {post.data.title}
+                </h2>
+                <p class="text-sm text-gray-500 mb-2">
+                  {post.data.pubDate.toLocaleDateString("es-MX", {
+                    dateStyle: "long",
+                  })}
+                </p>
+                <p class="text-text text-sm">{post.data.description}</p>
+              </div>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+</Layout>

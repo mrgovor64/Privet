@@ -1,0 +1,47 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { getEntry, getCollection } from "astro:content";
+
+export async function getStaticPaths() {
+  const posts = await getCollection("blog");
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+  }));
+}
+
+const { slug } = Astro.params;
+const entry = await getEntry("blog", slug);
+
+if (!entry) {
+  throw new Error(`Статья с адресом "${slug}" не найдена.`);
+}
+
+const { data } = entry;
+const { Content } = await entry.render();
+---
+
+<Layout title={data.title} description={data.description}>
+  <article class="max-w-3xl mx-auto px-4 py-12">
+    <header class="mb-8">
+      <h1 class="text-3xl font-heading text-primary mb-2">{data.title}</h1>
+      <p class="text-sm text-gray-500">
+        {data.pubDate.toLocaleDateString("es-MX", { dateStyle: "long" })}
+      </p>
+      {
+        data.image && (
+          <img
+            src={data.image}
+            alt={data.title}
+            class="w-full mt-6 rounded-xl shadow object-cover max-h-[400px]"
+          />
+        )
+      }
+    </header>
+
+    <div
+      class="prose max-w-none prose-headings:text-primary prose-p:text-text prose-li:text-text prose-strong:text-text"
+    >
+      <Content />
+    </div>
+  </article>
+</Layout>
