@@ -20,7 +20,11 @@ const { data } = entry;
 const { Content } = await entry.render();
 ---
 
-<Layout title={data.title} description={data.description}>
+<Layout
+  title={data.title}
+  description={data.description}
+  image_of_page={data.image}
+>
   <article class="max-w-3xl mx-auto px-4 py-12">
     <header class="mb-8">
       <h1 class="text-3xl font-heading text-primary mb-2">{data.title}</h1>

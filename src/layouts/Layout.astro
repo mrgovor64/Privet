@@ -3,10 +3,14 @@ import Header from "../components/Header.astro";
 import Contact from "../components/Contact.astro";
 import "../styles/global.css";
 import "../styles/base.css";
+const { image_of_page = "/images/logo.png" } = Astro.props;
 const { title = "Privet — Postres Rusos en Guadalajara" } = Astro.props;
 const {
   description = "Descubre Privet, una repostería rusa en Guadalajara. Medovik, Napoleón, café Raf y postres únicos para sorprender.",
 } = Astro.props;
+
+const full_image_of_page =
+  "https://privet.mx" + (image_of_page || "/images/logo.png");
 ---
 
 <!doctype html>
@@ -30,7 +34,7 @@ const {
     <!-- Open Graph / Facebook -->
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    <meta property="og:image" content="https://privet.mx/images/logo.png" />
+    <meta property="og:image" content={full_image_of_page} />
     <meta property="og:url" content="https://privet.mx/" />
     <meta property="og:type" content="website" />
 
