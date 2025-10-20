@@ -20,7 +20,7 @@ Y ese momento nos encanta, porque los postres son, quizá, la forma más sabrosa
 Los dulces rusos no buscan impresionar: buscan abrazar. Son para tardes tranquilas, con una taza de té caliente, mientras afuera cae la nieve (o en Guadalajara, simplemente cae la tarde).
 
 - **Menos azúcar, más sabor.** En Rusia se usan crema, leche condensada, miel, mantequilla… y poca azúcar.  
-- **Texturas suaves y en capas.** Napoleón, Medovik, Muraveynik — postres que se disfrutan despacio, bocado a bocado.  
+- **Texturas suaves y en capas.** Napoleón, Medovik, Muraveynik – postres que se disfrutan despacio, bocado a bocado.  
 - **Con un toque de nostalgia.** Son recetas familiares, hechas con paciencia y cariño.
 
 El **Medovik**, por ejemplo, no es solo un pastel. Es una historia. Cada capa tiene miel, crema… y recuerdos.
@@ -32,8 +32,8 @@ El **Medovik**, por ejemplo, no es solo un pastel. Es una historia. Cada capa ti
 Los postres mexicanos, en cambio, parecen decir: **¡Vamos a celebrar!**  
 Son alegres, dulces, atrevidos y llenos de vida.
 
-- Aquí se ama la **leche y el caramelo** — tres leches, flan, cajeta.  
-- No se teme al **picante o lo ácido** — chile, tamarindo, limón.  
+- Aquí se ama la **leche y el caramelo** – tres leches, flan, cajeta.  
+- No se teme al **picante o lo ácido** – chile, tamarindo, limón.  
 - Y, sobre todo, hay **color y energía**. Desde un pan de muerto hasta una paleta de guayaba con chile.
 
 Si los postres rusos son un abrazo, los mexicanos son un baile.
@@ -84,7 +84,7 @@ Quizás después del primer bocado entiendas por qué los extrañamos tanto.
 
 ## La última cucharada
 
-Los postres rusos no compiten con los mexicanos — simplemente cuentan otra historia.  
+Los postres rusos no compiten con los mexicanos – simplemente cuentan otra historia.  
 Una historia de té en lugar de café, de tardes tranquilas en lugar de ruido, de calma en lugar de prisa.
 
 Y lo más bonito es que esa historia también combina perfectamente con el sol mexicano.  
