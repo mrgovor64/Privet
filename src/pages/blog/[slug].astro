@@ -31,6 +31,13 @@ const { Content } = await entry.render();
       <p class="text-sm text-gray-500">
         {data.pubDate.toLocaleDateString("es-MX", { dateStyle: "long" })}
       </p>
+
+      <div class="max-w-3xl mx-auto mx-4 mt-4 mb-4">
+        <a href="/blog" class="text-sm text-primary hover:underline"
+          >← Volver al blog</a
+        >
+      </div>
+
       {
         data.image && (
           <img
@@ -46,6 +53,14 @@ const { Content } = await entry.render();
       class="prose max-w-none prose-headings:text-primary prose-p:text-text prose-li:text-text prose-strong:text-text"
     >
       <Content />
+    </div>
+    <div class="mt-12">
+      <a
+        href="/blog"
+        class="inline-block text-sm bg-gray-200 hover:bg-gray-300 text-gray-800 px-4 py-2 rounded transition"
+      >
+        ← Volver al blog
+      </a>
     </div>
   </article>
 </Layout>
