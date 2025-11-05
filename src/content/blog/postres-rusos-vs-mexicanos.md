@@ -62,7 +62,7 @@ Si los postres rusos son un abrazo, los mexicanos son un baile.
 
 ## 💬 Una historia de nuestra vitrina
 
-Hace poco vino la señora María, de Chapalita. Probó el Napoleón, se quedó en silencio unos segundos y dijo:
+Hace poco vino la señora María. Probó el Napoleón, se quedó en silencio unos segundos y dijo:
 
 > “No sabe igual que un pastel, pero tiene algo… familiar. Me recordó al que mi mamá hacía en Navidad.”
 

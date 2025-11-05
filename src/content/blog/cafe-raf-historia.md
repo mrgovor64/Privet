@@ -48,7 +48,7 @@ Pero al probarlo… se enamoraron.
 Hay algo en esa textura envolvente y ese aroma sutil que **funciona incluso con 30 grados de calor**.
 
 En **Privet** lo servimos como debe ser:  
-- **Raf clásico** — sin jarabes ni toppings por defecto.  
+- **Raf clásico** – sin jarabes ni toppings por defecto.  
 - Y si te gusta experimentar, puedes pedirlo con:  
   - Vainilla  
   - Caramelo  

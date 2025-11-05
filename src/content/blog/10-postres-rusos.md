@@ -90,8 +90,7 @@ Ambos se preparan una vez al año y se comparten con la familia y los vecinos.
 
 En **Privet**, adaptamos algunas recetas al gusto local:  
 menos mantequilla, más balance, y un poco de creatividad.  
-Así nacieron versiones con lavanda, pistache, o cacao mexicano –  
-sin perder la esencia rusa, pero con un guiño a Guadalajara.
+Sin perder la esencia rusa, pero con un guiño a Guadalajara.
 
 ---
 
