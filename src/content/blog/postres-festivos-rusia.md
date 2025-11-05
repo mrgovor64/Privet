@@ -14,7 +14,7 @@ Las celebraciones rusas giran en torno a la mesa, y los postres tienen un papel 
 
 ---
 
-## 🎄 Navidad y Año Nuevo: el reino del Napoleón
+## 🎄 Navidad y Año Nuevo: el reino del Napoleón [(imagen)](https://www.google.com/search?tbm=isch&q=новогоднее+застолье+дома)
 
 Aunque en Rusia la Navidad ortodoxa se celebra el **7 de enero**, la gran fiesta familiar es el **Año Nuevo**.
 Después de una cena larga con ensaladas, pescado y champaña, llega el momento más esperado: el postre.
@@ -30,7 +30,7 @@ En muchas casas también se preparan **galletas caseras**, decoradas con azúcar
 
 ---
 
-## ☀️ Maslenitsa: la semana de los blinis
+## ☀️ Maslenitsa: la semana de los blinis [(imagen)](https://www.google.com/search?tbm=isch&q=масленица)
 
 Uno de los festejos más alegres del calendario ruso es la **Maslenitsa**, una celebración que marca el final del invierno y el inicio de la primavera.
 Durante toda una semana se comen **blinis** – panqueques finos que simbolizan el sol.
@@ -40,7 +40,7 @@ Las calles se llenan de olor a mantequilla derretida, y las casas, de risas y t�
 
 ---
 
-## 🐣 Pascua: el sabor de la esperanza
+## 🐣 Pascua: el sabor de la esperanza [(imagen)](https://www.google.com/search?tbm=isch&q=Пасха)
 
 En Pascua, las familias hornean el **kulich**, un pan dulce alto con glaseado blanco, parecido al panettone, y lo bendicen en la iglesia.
 Se acompaña con un postre cremoso llamado **paskha**, hecho con requesón, mantequilla y frutas secas.
