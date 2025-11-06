@@ -17,32 +17,34 @@ const posts = await getCollection("blog");
 
     <ul class="grid gap-6 md:grid-cols-2">
       {
-        posts.map((post) => (
-          <li class="bg-white shadow rounded-xl overflow-hidden hover:shadow-md transition">
-            <a href={`/blog/${post.slug}/`} class="block">
-              <img
-                src={
-                  post.data.image && post.data.image.trim() !== ""
-                    ? post.data.image
-                    : "/images/noimg.jpg"
-                }
-                alt={post.data.title}
-                class="w-full h-48 object-cover"
-              />
-              <div class="p-4">
-                <h2 class="text-xl font-semibold text-primary mb-1">
-                  {post.data.title}
-                </h2>
-                <p class="text-sm text-gray-500 mb-2">
-                  {post.data.pubDate.toLocaleDateString("es-MX", {
-                    dateStyle: "long",
-                  })}
-                </p>
-                <p class="text-text text-sm">{post.data.description}</p>
-              </div>
-            </a>
-          </li>
-        ))
+        posts
+          .sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate))
+          .map((post) => (
+            <li class="bg-white shadow rounded-xl overflow-hidden hover:shadow-md transition">
+              <a href={`/blog/${post.slug}/`} class="block">
+                <img
+                  src={
+                    post.data.image && post.data.image.trim() !== ""
+                      ? post.data.image
+                      : "/images/noimg.jpg"
+                  }
+                  alt={post.data.title}
+                  class="w-full h-48 object-cover"
+                />
+                <div class="p-4">
+                  <h2 class="text-xl font-semibold text-primary mb-1">
+                    {post.data.title}
+                  </h2>
+                  <p class="text-sm text-gray-500 mb-2">
+                    {post.data.pubDate.toLocaleDateString("es-MX", {
+                      dateStyle: "long",
+                    })}
+                  </p>
+                  <p class="text-text text-sm">{post.data.description}</p>
+                </div>
+              </a>
+            </li>
+          ))
       }
     </ul>
   </section>
